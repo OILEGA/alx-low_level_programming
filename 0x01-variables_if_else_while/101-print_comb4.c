@@ -1,26 +1,25 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main -print all possible different
- * combinations of three digits
+ * main -print combination of three digits
  * Return:0
 */
 int main(void)
 {
 	int i, j;
 
-	for (i = 0; i < 9; i++)
+	for (i = 0; i < 100; i++)
 	{
 
-		for (j = i + 1; j < 10; j++)
+		for (j = i + 1; j < 100; j++)
 		{
 
-			putchar (i % 10 + '0');
-			putchar (j % 10 + '0');
-			if (i == 8 && j == 9)
+			putchar (i % 100 + '0');
+			putchar (j % 100 + '0');
+			if (i != 80 || j != 90)
 				putchar (',');
 				putchar (' ');
 		}
-	}
+		putchar ('\n');
 	return (0);
 }
