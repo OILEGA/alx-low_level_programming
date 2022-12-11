@@ -6,20 +6,24 @@
 */
 int main(void)
 {
-	int i, j;
+	int i, j, k;
 
-	for (i = 0; i < 100; i++)
+	for (i = 0; i < 8; i++)
 	{
 
-		for (j = i + 1; j < 100; j++)
+		for (j = i + 1; j < 9; j++)
 		{
-
-			putchar (i % 100 + '0');
-			putchar (j % 100 + '0');
-			if (i != 80 || j != 90)
+			for (k = j + 1; k < 10; k++)
+			{
+			putchar (i + '0');
+			putchar (j + '0');
+			putchar (k + '0');
+			if (i == 7 && j == 8 && k == 9)
 				putchar (',');
 				putchar (' ');
+			}
 		}
 		putchar ('\n');
+	}
 	return (0);
 }
