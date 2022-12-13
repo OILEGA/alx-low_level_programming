@@ -1,8 +1,10 @@
 #include "main.h"
+
 /**
  * main - to print _putchar
- * Return:0
-*/
+ * by Omena Egbusiri
+ * Return: 0
+ */
 
 int main(void)
 {
