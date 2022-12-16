@@ -1,6 +1,6 @@
-i#include "main.h"
+#include "main.h"
 /**
- * print_numbers - prints number from zero to 9
+ * print_numbers - prints number from 0 to 9
  * Return: void
  */
 
