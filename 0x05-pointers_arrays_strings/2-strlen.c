@@ -11,6 +11,6 @@ int _strlen(char *s)
 
 	for (; *s++;) /* using a for loop to count our 6 strings, s to g*/
 		(a++;)/* to run our increment starting from 0*/
-	return (0);
+	return (a);
 
 }
