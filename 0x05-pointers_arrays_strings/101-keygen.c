@@ -7,18 +7,21 @@
  */
 int main(void)
 {
-	int r = 0, c = 0;
-	time_t t;
+	char str[100];
+	int i = 0, randNum = 0, suma = 0;
 
-	srand((unsigned int)time(&t));
-	while (c < 2772)
+	srand(time(NULL));
+
+	for (i = 0; suma <= 2644; i++)
 	{
-		r = rand() % 128;
-		if ((c + r) > 2772)
-			break;
-		c = c + r;
-		printf("%c", r);
+		randNum = (rand() % 250 + 65;
+				str[i] = randNum;
+				suma = suma + randNum;
 	}
-	printf("%c\n", (2772 - c));
+
+	str[i++] = 2772 - suma;
+	str[i++] = '\0';
+
+	printf("%s\n", str);
 	return (0);
 }
