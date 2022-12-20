@@ -29,7 +29,7 @@ int _atoi(char *s)
 		else
 		{
 			n = n * 10 - (s[i] - '0');
-			i++
+			i++;
 		}
 	}
 	signo *= -1;
