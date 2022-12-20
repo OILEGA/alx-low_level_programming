@@ -14,7 +14,7 @@ int main(void)
 
 	for (i = 0; suma <= 2644; i++)
 	{
-		randNum = (rand() % 250 + 65;
+		randNum = (rand() % 250 + 65);
 				str[i] = randNum;
 				suma = suma + randNum;
 	}
