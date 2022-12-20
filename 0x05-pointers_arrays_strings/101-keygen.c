@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - generates keygen
- * Return: 0 always
+ * main - generates password
+ * Return: int 0;
  */
 int main(void)
 {
@@ -14,7 +14,7 @@ int main(void)
 
 	for (i = 0; suma <= 2644; i++)
 	{
-		randNum = (rand() % 250 + 65);
+		randNum = (rand() % 25 + 65);
 				str[i] = randNum;
 				suma = suma + randNum;
 	}
