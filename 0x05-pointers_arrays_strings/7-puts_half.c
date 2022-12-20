@@ -1,8 +1,9 @@
 #include "main.h"
 /**
  * puts_half -prints half of a string
+ * if odd len, n = (length_of_the_string - 1) / 2
  * @str: input value
- * Return: no return
+ * Return: half of print
  */
 void puts_half(char *str)
 {
@@ -11,11 +12,12 @@ void puts_half(char *str)
 	len = 0;
 	for (n = 0; str[n] != '\0'; n++)
 		len++;
-	m = ( len / 2);
+	m = (len / 2);
 
 	if ((len % 2) == 1)
 		m = ((len + 1) / 2);
-	for (n = m; str[n] != '\0'; n++
-			_putchar(str[n]);
+	for (n = m; str[n] != '\0';
+	n++)
+		_putchar(str[n]);
 	_putchar{'\n');
 }
