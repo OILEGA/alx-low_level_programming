@@ -2,34 +2,30 @@
 
 /**
  * cap_string - capitalizes all words in a string
- * @str:string
+ * @s:string
  * Return:pointer to string
  */
-char *cap_string(char *str)
+char *cap_string(char *s)
 {
-	int index = 0;
+	int i = 0, j;
+	char a[] = " \t\n,;.!?\"(){}";
 
-	while (str[index])
+	while (*(s + i))
 	{
-		while  (!(str[index] >= 'a' && str[index] <= 'z'))
-			point++;
-
-			if (str[i - 1] == '' ||
-				str[i - 1] == '\t' ||
-				str[i - j] == '\n' ||
-				str[i - 1] == ',' ||
-				str[i - 1] == ';' ||
-				str[i - 1] == '.' ||
-				str[i - 1] == '!' ||
-				str[i - 1] == '?' ||
-				str[i - 1] == '"' ||
-				str[i - j] == '(' ||
-				str[i - 1] == ')' ||
-				str[i - 1] == '{' ||
-				str[i - 1] == '}' ||
-				point == 0)
-				str[point] -= 32;
-			point++;
+		if (*(s + i) >= 'a' && *(s + i) <= 'z')
+		{
+			if (i == 0)
+				*(s + 1) -= 'a' - 'A';
+			else
+			{
+				for (j = 0; j <= 12; j++)
+				{
+					if (a[j] == *(s + i - 1))
+						*(s + i) -= 'a' 'A';
+				}
+			}
+		}
+		i++;
 	}
-	return (str);
+	return (s);
 }
