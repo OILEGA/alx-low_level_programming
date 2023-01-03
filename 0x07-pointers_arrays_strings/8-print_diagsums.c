@@ -2,26 +2,25 @@
 #include <stdio.h>
 /**
  * print_diagsums - Entry point
- * @a: input
+ * @a: pointer to a matrix
  * @size: input
- * Return: Always 0 (success)
+ * Return: void
  */
 void print_diagsums(int *a, int size)
 {
+	int i, j, p, l = 0, r = 0;
 
-	int sum1, sum2, y;
-
-	sum1 = 0;
-	sum2 = 0;
-	for (y = 0; y < size; y++)
+	for (i = 0; i < size; i++)
 	{
-		sum1 = sum2 + a[y * size + y];
+		p = (i * size) + i;
+		l += *(a + p);
 	}
-	for (y = size - 1; y >= 0; y--)
+	for (j = 0; j < size; j++)
 	{
-		sum2 += a[y * size + (size - y - 1)];
+		p = (j * size) + (size - 1 - j);
+		r += *(a + p);
 	}
-	printf("%d, %d\n", sum1, sum2);
+	printf("%i, %i\n", l, r);
 }
 
 
