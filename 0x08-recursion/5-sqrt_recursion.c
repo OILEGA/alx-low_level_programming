@@ -27,5 +27,5 @@ int check ( int a, int b)
 {
 	if ( n == 0)
 		return (0);
-	return (check(n, 1));
+	return (check(1, n));
 }
