@@ -5,7 +5,7 @@
  * @name: Member 1
  * @age: Member 2
  * @owner: Member 3
- * 
+ *
  * Description: Describing the process
  */
 struct dog
@@ -24,4 +24,4 @@ struct dog
 	void free_dog(dog_t *d);
 	char *_strcpy(char *dest, char *src);
 	int _strlen(char *s);
-#endif	
+#endif
