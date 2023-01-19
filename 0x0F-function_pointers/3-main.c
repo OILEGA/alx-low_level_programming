@@ -9,7 +9,7 @@
  *
  * Return: 0
  */
-int main(int_attribute_((_unused_)) argc, char *argv[])
+int main(__attribute__((__unused__)) int argc, char *argv[])
 {
 	int num1, num2;
 	char *op;
@@ -21,7 +21,8 @@ int main(int_attribute_((_unused_)) argc, char *argv[])
 	}
 	num1 = atoi(argv[1]);
 	op = argv[2];
-	num2 = atoi(argv[3];
+	num2 = atoi(argv[3]);
+
 	if (get_op_func(op) == NULL || op[1] != '\0')
 	{
 		printf("Error\n");
