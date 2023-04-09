@@ -10,7 +10,7 @@ void hash_table_print(const hash_table_t *ht)
 {
 	unsigned long int i;
 	hash_node_t *tmp;
-	char set_flag = 0;    /* our set_flag is set to 0 when no data has been printed yet */
+	char set_flag = 0;
 
 	if (ht == NULL || ht->array == NULL)
 		return;
@@ -20,7 +20,7 @@ void hash_table_print(const hash_table_t *ht)
 		tmp = ht->array[i];
 		while (tmp != NULL)
 		{
-			if (set_flag == 1)  /*set_flag =1 as atleast one key-value pair has been printed */
+			if (set_flag == 1)
 				printf(", ");
 			printf("'%s': '%s'", tmp->key, tmp->value);
 			set_flag = 1;
@@ -28,4 +28,5 @@ void hash_table_print(const hash_table_t *ht)
 		}
 	}
 	printf("}\n");
+}
 
