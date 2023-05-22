@@ -1,5 +1,4 @@
-![Preprocessing Directives in C](https://github.com/OILEGA/alx-low_level_programming/assets/117779858/bbdff606-d1d2-4bdb-9898-1a052cf72f1c)
-
+https://www.examtray.com/sites/default/files/styles/image_800_x_400_/public/2019-05/c-preprocessor-directives-tutorial.jpg?itok=9kpBwWFW
 
 
 A README file for Pre-Processor Project
