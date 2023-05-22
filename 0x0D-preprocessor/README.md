@@ -1,4 +1,5 @@
-https://www.examtray.com/sites/default/files/styles/image_800_x_400_/public/2019-05/c-preprocessor-directives-tutorial.jpg?itok=9kpBwWFW
+
+![c-preprocessor-directives-tutorial](https://github.com/OILEGA/alx-low_level_programming/assets/117779858/e4a3b116-6329-4c52-88e4-e5502d18736b)
 
 
 A README file for Pre-Processor Project
