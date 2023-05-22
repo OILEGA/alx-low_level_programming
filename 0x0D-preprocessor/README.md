@@ -1,3 +1,7 @@
+![Preprocessing Directives in C](https://github.com/OILEGA/alx-low_level_programming/assets/117779858/bbdff606-d1d2-4bdb-9898-1a052cf72f1c)
+
+
+
 A README file for Pre-Processor Project
 
 Task 0: 
