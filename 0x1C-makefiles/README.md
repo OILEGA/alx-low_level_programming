@@ -38,7 +38,7 @@ commands to make target
       -  Internal macros are predefined in make
       -  “make -p” to display a listing of all the macros, suffix rules and targets in effect for the current build.
       
- ## NOTE:
+ ### NOTE
   An explicit rule says when and how to remake one or more files, called the rule’s targets. It lists the other files that the targets depend on,
   called the prerequisites of the target, and may also give a recipe to    use to create or update the targets. See [Writing Rules].
   An implicit rule says when and how to remake a class of files based on their names. It describes how a target may depend on a file with a name 
@@ -55,7 +55,7 @@ commands to make target
     
  ## Resources:
     
-       [https://intranet.alxswe.com/rltoken/moIpBFMN3sJcVMNn5VIFlA]
+       https://intranet.alxswe.com/rltoken/moIpBFMN3sJcVMNn5VIFlA
        [https://intranet.alxswe.com/rltoken/1AUviCUw3TrznESzWbrKAQ]
        [https://intranet.alxswe.com/rltoken/vQFeXLq1izNua2z2dVl5Yg]
     
