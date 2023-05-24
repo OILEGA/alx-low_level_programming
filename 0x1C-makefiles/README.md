@@ -12,3 +12,8 @@
 ## What Does a Basic Make File Structure Look Like
 
 **Dependency rules**
+A rule consists of three parts, one or more targets, zero or more dependencies, and zero or more
+commands in the form: 
+ **target: `dependencies`
+  
+
