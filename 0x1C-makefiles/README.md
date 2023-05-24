@@ -16,5 +16,5 @@ A rule consists of three parts, one or more targets, zero or more dependencies, 
 commands in the form: 
   **target: `dependencies`
   <tab> commands to make target
-  .  <tab> character MUST NOT be replaced be spaces.
+  <tab> character MUST NOT be replaced be spaces.
 
