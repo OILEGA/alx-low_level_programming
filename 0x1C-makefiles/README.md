@@ -15,7 +15,7 @@
 A rule consists of three parts, one or more targets, zero or more dependencies, and zero or more
 commands in the form: 
 ###  **target: `dependencies`
-   #### commands to make target
+commands to make target
       - character MUST NOT be replaced be spaces.
       - A “target” is usually the name of a file(e.g. executable or object files). It can also be the name of an action (e.g. clean)
       - “dependencies” are files that are used as input to create the target.
