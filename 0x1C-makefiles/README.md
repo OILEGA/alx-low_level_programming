@@ -10,4 +10,5 @@
  
  Makefile contains: dependency rules, macros and suffix(or implicit) rules
 ## What Does a Basic Make File Structure Look Like
-** Dependency rules**
+
+** Dependency rules **
