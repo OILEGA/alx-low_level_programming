@@ -14,6 +14,7 @@
 **Dependency rules**
 A rule consists of three parts, one or more targets, zero or more dependencies, and zero or more
 commands in the form: 
- **target: `dependencies`
-  
+  **target: `dependencies`
+  <tab> commands to make target
+  .  <tab> character MUST NOT be replaced be spaces.
 
