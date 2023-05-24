@@ -32,15 +32,15 @@ commands to make target
 
 
  ### Macros
-      - By using macros, we can avoid repeating text entries and makefile is easy to modify.
-      -  Macros are referred to by placing the name in either parentheses or curly braces and preceding it with $ sign.
-          E.g. $(CC) main.o factorial.o hello.o -o prog
-      -  Internal macros are predefined in make
-      -  “make -p” to display a listing of all the macros, suffix rules and targets in effect for the current build.
+   By using macros, we can avoid repeating text entries and makefile is easy to modify.
+   Macros are referred to by placing the name in either parentheses or curly braces and preceding it with $ sign.
+   E.g. $(CC) main.o factorial.o hello.o -o prog
+   Internal macros are predefined in make
+   “make -p” to display a listing of all the macros, suffix rules and targets in effect for the current build.
       
  ### NOTE
   An explicit rule says when and how to remake one or more files, called the rule’s targets. It lists the other files that the targets depend on,
-  called the prerequisites of the target, and may also give a recipe to    use to create or update the targets. See [Writing Rules].
+  called the prerequisites of the target, and may also give a recipe to    use to create or update the targets. See Writing Rules.
   An implicit rule says when and how to remake a class of files based on their names. It describes how a target may depend on a file with a name 
   similar to the target and gives a recipe to create or update such a target. See [Using Implicit Rules].
   A variable definition is a line that specifies a text string value for a variable that can be substituted into the text later.
@@ -48,15 +48,17 @@ commands to make target
 
 
  ## How Does Make Work?
-    - The make utility compares the modification time of the target file with the modification times of the dependency files. Any dependency file that
-        has a more recent modification time than its target file forces the target file to be recreated. 
-    - By default, the first target file is the one that is built. Other targets are checked only if they are dependencies for the first target. 
-    - Except for the first target, the order of the targets does not matter. The make utility will build them in the order required. 
+  The make utility compares the modification time of the target file with the modification times of the dependency files. Any dependency file that
+  has a more recent modification time than its target file forces the target file to be recreated. 
+  By default, the first target file is the one that is built. Other targets are checked only if they are dependencies for the first target. 
+  Except for the first target, the order of the targets does not matter. The make utility will build them in the order required. 
     
- ## Resources:
+ ## Resources
     
-       https://intranet.alxswe.com/rltoken/moIpBFMN3sJcVMNn5VIFlA
-       [https://intranet.alxswe.com/rltoken/1AUviCUw3TrznESzWbrKAQ]
-       [https://intranet.alxswe.com/rltoken/vQFeXLq1izNua2z2dVl5Yg]
+  https://intranet.alxswe.com/rltoken/moIpBFMN3sJcVMNn5VIFlA
+ 
+ [https://intranet.alxswe.com/rltoken/1AUviCUw3TrznESzWbrKAQ]
+ 
+ [https://intranet.alxswe.com/rltoken/vQFeXLq1izNua2z2dVl5Yg]
     
  
